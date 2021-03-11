@@ -7,7 +7,14 @@
             <param name="username">vagrant</param>
             <param name="password">vagrant</param>
         </connection>
-
+		<connection name="kaliVM">
+            <protocol>ssh</protocol>
+            <param name="hostname">192.168.38.106</param>
+            <param name="port">22</param>
+            <param name="username">vagrant</param>
+            <param name="password">vagrant</param>
+        </connection>
+		
         <connection name="wef">
             <protocol>rdp</protocol>
             <param name="hostname">192.168.38.103</param>
